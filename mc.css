@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 
-#logo {
+.logo {
     border-radius: 50%;
     position: fixed;
     float: left;
@@ -68,7 +68,7 @@ nav ul li a {
   }
 
 @media(max-width: 600px) {
-    #logo {
+    .logo {
         position: fixed;
         top: 0;
         margin-top: 16px;
@@ -202,13 +202,13 @@ h5{
     text-align: center;
     display: inline-block;
     width: 100%;
-    padding-left: 5%;
+    
 }
 
 #contact{
     justify-content:center;
     text-align:center;
     width:100%;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
