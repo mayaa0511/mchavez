@@ -175,7 +175,7 @@ h5{
     padding-left: 25%;
 }
 
-@media(max-width: 580px){
+@media(min-width: 320px){
     #skills{
         padding-left: 5% ;
     }
