@@ -201,9 +201,8 @@ h5{
 .icons{
     text-align:center;
     display: inline-block;
-    width: 100%;
-    padding-left:5%;
-    font-stretch: expanded;   
+    font-stretch: expanded; 
+    padding-top:3%;
 }
 
 #contact{
@@ -219,4 +218,3 @@ h5{
     width:100%;
     margin-bottom: 5%;
 }
-
