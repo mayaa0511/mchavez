@@ -168,14 +168,9 @@ h5{
 @media(max-width: 580px){
     
     .mcPic{
-    padding-top: 10%;
     border-radius: 100%;
-    width: 80%;
-    margin-left: 50%;
+    width: 30%;
 }
-
-
-
 #intro{
     font-size: 20px;
 }
@@ -214,7 +209,7 @@ h5{
 }
 
 #contact{
-     text-align: center;
+    display: inline-block;
      width:100%;
 }
 
