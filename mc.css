@@ -67,7 +67,7 @@ nav ul li a {
     width: auto;
   }
 
-@media(max-width: 580px) {
+@media(min-width: 320px) {
     .logo {
         position: fixed;
         top: 0;
@@ -128,12 +128,7 @@ nav ul li a {
     font-size: 80px ;
 }
 
-hr.line{
-    
-    border-top: solid black;
-    border-width: 15%;
-    width: 40%;
-} 
+
 
 #aboutMe{
     text-align: center;
