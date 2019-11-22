@@ -180,9 +180,12 @@ h5{
 }
 
 .icons{
+    font-size: 40px;
     text-align: center;
     display: inline-block;
     width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
 }
 
 #contact{
@@ -190,7 +193,3 @@ h5{
      background: #efc7c2;
 }
 
-#footer{
-     background: #efc7c2;
-   
-}
