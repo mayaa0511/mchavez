@@ -1,0 +1,151 @@
+html body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffe5d4;
+}
+
+nav {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #efc7c2;
+    overflow: hidden;
+    color: #000;
+    padding-left: 150px;
+    text-align: left;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.pink ul{
+    background-color: #efc7c2;
+}
+li{
+    background-color: #efc7c2;
+    display: inline-block;
+    padding: 20px
+}
+
+.menu{
+    background:transparent;
+}
+
+}
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ nav.pink ul{
+    background-color: #efc7c2;
+ }
+.menu-icon {
+    width: 100%;
+    background-color: #efc7c2;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.active{
+    color: #7d5c65;
+}
+
+.logo {
+  border-radius: 50%;
+  position: fixed;
+  float: left;
+  margin: 12px 30px;
+  height: 8%;
+  width: auto;
+}
+
+@media(max-width: 580px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+        border-radius: 50%;
+    }
+
+
+    nav ul {
+        max-height: 0px;
+        background: #efc7c2;
+    }
+
+    nav.pink ul {
+      background: #efc7c2;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+
+
+#resume1{
+    margin: 50;
+    text-align: center;
+   
+}
+
+hr.line{
+    
+    border-top: solid black;
+    border-width: 15%;
+    width: 70%;
+} 
+
+#skills{
+    padding-left: 25%;
+}
+#education{
+    padding-left: 25%;
+}
+
+h5{
+    font-weight: bold;
+}
+
+
+#experience{
+    padding-left: 25%;
+}
+
+@media(max-width: 580px){
+    #skills{
+        padding-left: 5% ;
+    }
+    #education{
+        padding-left: 5% ;
+    }
+    #experience{
+        padding-left: 5% ;
+    }
+    .row{
+        text-align: center;
+    }
+}
