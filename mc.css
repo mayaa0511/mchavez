@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 
-.logo {
+#logo {
     border-radius: 50%;
     position: fixed;
     float: left;
@@ -68,7 +68,7 @@ nav ul li a {
   }
 
 @media(max-width: 600px) {
-    .logo {
+    #logo {
         position: fixed;
         top: 0;
         margin-top: 16px;
