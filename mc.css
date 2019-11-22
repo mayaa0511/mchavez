@@ -164,7 +164,7 @@ h5{
     padding-left: 25%;
 }
 
-@media(min-width: 320px){
+@media(max-width: 580px){
     #skills{
         padding-left: 5% ;
     }
@@ -180,8 +180,10 @@ h5{
 }
 #contact{
     text-align: center;
+     background: #efc7c2;
 }
 
 #footer{
-    display: ;
+     background: #efc7c2;
+   
 }
