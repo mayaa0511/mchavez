@@ -199,9 +199,8 @@ h5{
 }
 
 .icons{
-    text-align:center;
+    
     display: inline-block;
-    font-stretch: expanded; 
     width:100%;
     padding-top:3%;
 }
