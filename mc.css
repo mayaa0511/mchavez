@@ -3,6 +3,9 @@ html body {
     background-color: #ffe5d4;
 }
 
+li{
+    style-type:circle;
+}
 
 .mcPic{
     padding-top: 10%;
