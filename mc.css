@@ -55,9 +55,11 @@ hr.line{
 
 #skills{
     padding-left: 25%;
+    padding-top: 5%;
 }
 #education{
     padding-left: 25%;
+    padding-top: 5%;
 }
 
 h5{
@@ -67,6 +69,7 @@ h5{
 
 #experience{
     padding-left: 25%;
+    padding-top: 5%;
 }
 
 @media(max-width: 580px){
